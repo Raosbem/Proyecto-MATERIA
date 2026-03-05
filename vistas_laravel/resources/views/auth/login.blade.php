@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Login</title>
 
-    @vite(['resources/css/app.css'])
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
 

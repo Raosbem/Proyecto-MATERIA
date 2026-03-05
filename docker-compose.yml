@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  flask:
+    build: ./vistas_flask
+    ports:
+      - "5001:5000"
+    container_name: flask_app_proyecto
+
+  laravel:
+    build: ./vistas_laravel
+    ports:
+      - "8002:80"
+    container_name: laravel_app_proyecto
